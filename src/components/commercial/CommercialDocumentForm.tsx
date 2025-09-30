@@ -393,7 +393,6 @@ export function CommercialDocumentForm({ docType, title, backPath }: CommercialD
           cancel_after: item.cancel_after || null,
           lot_number: item.lot_number || null,
           inventory_state: item.inventory_state,
-          inventory_state: item.inventory_state,
           status: getInitialLineStatus(docType),
           warehouse_id: item.warehouse_id || formData.primary_warehouse_id,
           secondary_warehouse_id: item.secondary_warehouse_id || null
